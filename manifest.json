@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "SEO Copilot",
+  "description": "SEO Copilot will assist you in analyzing your site and articles.",
+  "version": "1.0.0",
+  "icons": {
+    "16" : "icon128.png",
+    "32": "icon128.png",
+    "48" : "icon128.png",
+    "128" : "icon128.png"
+  },
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
